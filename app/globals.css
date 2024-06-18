@@ -1,28 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* CSS variables for main background, main text, highlight colors, and main font */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --main-background: #fffff4;
+  --main-text: #000000; /* black */
+  --highlight-blue: #015a6c;
+  --highlight-red: #d66d50;
+  --main-font: "Nunito", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --main-background: #000000;
+    --main-text: #ffffff;
+    --highlight-blue: #4fc3f7;
+    --highlight-red: #ef9a9a;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  color: rgb(var(--foreground-rgb));
-  margin: 1rem
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  background-color: var(--main-background);
+  color: var(--main-text);
+  font-family: var(--main-font);
 }

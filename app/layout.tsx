@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import "bootstrap/dist/css/bootstrap.css";
-import BootstrapClient from "./Components/BootstrapClient";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +17,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <NavBar></NavBar>
         <main>{children}</main>
         <Footer></Footer>
-        <BootstrapClient></BootstrapClient>
       </body>
     </html>
   );
