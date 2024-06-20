@@ -29,11 +29,12 @@ export default function Home() {
         </div>
       </div>
       <div className="relative py-16">
-        {/* Background color and vertical padding */}
-        <div className="container mx-auto px-4">
-          {/* Centering and padding the container */}
+        {/* container in tailwind used for setting max-width of elements dynamically based on nearest smallest breakpoint
+        auto centers it. */}
+        <div className="container mx-auto ">
+          {/* flex container */}
           <div className="flex flex-wrap items-center justify-center">
-            {/* Flex container for responsive layout */}
+            {/* md and lg breakpoint width adjustments*/}
             <div className="w-full md:w-1/2 lg:w-5/12 px-4">
               {/* Text column */}
               <h2 className="text-4xl font-semibold mb-5">Hi and welcome!</h2>
@@ -50,9 +51,8 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full md:w-1/2 lg:w-5/12 px-4">
-              {/* Image column */}
+              {/* image column */}
               <div className="max-w-sm mx-auto">
-                {/* Constrain image width and center it */}
                 <img
                   src="/profile-cropped.png"
                   alt="Hiking on the Camino de Santiago"
