@@ -3,17 +3,25 @@ import React, { useState } from "react";
 
 interface ExperienceToggleProps {
   logo: string;
-  title: string;
+  title: React.ReactNode;
+  date: string;
+  location: string;
   children: React.ReactNode;
 }
 
-const ExperienceToggle = ({ logo, title, children }: ExperienceToggleProps) => {
+const ExperienceToggle = ({
+  logo,
+  title,
+  date,
+  location,
+  children,
+}: ExperienceToggleProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="my-4">
       <div
-        className="flex items-center justify-between cursor-pointer"
+        className="flex items-center justify-center cursor-pointer border border-gray-300"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center">
@@ -26,7 +34,21 @@ const ExperienceToggle = ({ logo, title, children }: ExperienceToggleProps) => {
           <ChevronDownIcon className="h-6 w-6" />
         )} */}
       </div>
-      {isOpen && <div className="mt-2 pl-14 text-gray-700">{children}</div>}
+      {isOpen && (
+        <div className="mt-2 pl-14 text-black">
+          <div className="mb-2 text-black flex items-center">
+            <img
+              src="/google-maps-logo.png"
+              alt="Google Maps"
+              className="h-6 w-6 mr-2"
+            />
+            <div className="font-semibold">
+              {location}, {date}
+            </div>
+          </div>
+          {children}
+        </div>
+      )}
     </div>
   );
 };
