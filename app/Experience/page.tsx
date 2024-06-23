@@ -5,7 +5,7 @@ import ExperienceToggle from "../Components/ExperienceToggle";
 const page = () => {
   return (
     <>
-      <div className="text-center text-3xl font-bold my-8">Experience</div>
+      <div className="text-center text-3xl font-bold my-8 pt-5">Experience</div>
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto my-6 p-4 border border-black rounded-lg shadow">
           <ExperienceToggle
