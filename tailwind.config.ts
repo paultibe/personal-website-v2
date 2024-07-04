@@ -8,13 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "main-background": "var(--main-background)",
+        "main-text": "var(--main-text)",
+        "highlight-blue": "var(--highlight-blue)",
+        "custom-yellow": "#f6be00",
+        "highlight-red": "var(--highlight-red)",
+      },
+      fontFamily: {
+        main: ["Nunito", "sans-serif"],
+      },
+      skew: {
+        "-13": "-13deg",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
