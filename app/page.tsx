@@ -53,7 +53,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 lg:w-5/12 px-4">
               {/* image column */}
               <div className="max-w-sm mx-auto">
-                <img
+                <Image
                   src="/profile-cropped.png"
                   alt="Hiking on the Camino de Santiago"
                   className="w-full rounded-lg shadow-lg"
@@ -78,7 +78,7 @@ export default function Home() {
             I ran a marathon with no training. <br></br>
             Things don't always go according to plan.
           </p>
-          <img
+          <Image
             src="/marathon.jpeg"
             alt="Running a Marathon With No Training"
             className="mx-auto rounded-lg shadow-lg"
