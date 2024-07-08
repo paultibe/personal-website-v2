@@ -9,7 +9,7 @@ const page = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto my-6 p-4 border border-black rounded-lg shadow">
           <ExperienceToggle
-            logo="copperleaf-logo.png"
+            logo="/copperleaf-logo.png"
             title={
               <>
                 <span>Incoming Software Engineer Intern @ </span>
@@ -24,7 +24,7 @@ const page = () => {
             ☻ Value Frameworks team!
           </ExperienceToggle>
           <ExperienceToggle
-            logo="ubc-logo.png"
+            logo="/ubc-logo.png"
             title={
               <>
                 <span>Software Engineer Intern @ </span>
@@ -48,7 +48,7 @@ const page = () => {
             optimize data collection of learning experiences
           </ExperienceToggle>
           <ExperienceToggle
-            logo="robotics-logo.png"
+            logo="/robotics-logo.png"
             title={
               <>
                 <span>Software Engineer @ </span>
@@ -67,7 +67,7 @@ const page = () => {
             and conversion into ROS messages to be sent to active processes
           </ExperienceToggle>
           <ExperienceToggle
-            logo="ubc-logo.png"
+            logo="/ubc-logo.png"
             title={
               <>
                 <span>Data Analyst @ </span>

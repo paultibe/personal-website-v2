@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 // import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/outline"; // ensure you have heroicons installed
 
 interface ExperienceToggleProps {
@@ -25,7 +26,7 @@ const ExperienceToggle = ({
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center">
-          <img src={logo} alt="logo" className="h-10 w-10 mr-4" />
+          <Image src={logo} alt="logo" className="h-10 w-10 mr-4" />
           <span className="font-semibold">{title}</span>
         </div>
         {/* {isOpen ? (
@@ -37,7 +38,7 @@ const ExperienceToggle = ({
       {isOpen && (
         <div className="mt-2 pl-14 text-black">
           <div className="mb-2 text-black flex items-center">
-            <img
+            <Image
               src="/google-maps-logo.png"
               alt="Google Maps"
               className="h-6 w-6 mr-2"

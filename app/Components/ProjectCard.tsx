@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 // card for each project!
 interface ProjectCardProps {
@@ -24,7 +25,7 @@ const ProjectCard = ({
       className="block overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
     >
       <div className="relative h-64 w-full overflow-hidden">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <Image src={image} alt={title} className="w-full h-full object-cover" />
       </div>
       <div className="p-4 bg-white">
         <p>📅 {date}</p>
