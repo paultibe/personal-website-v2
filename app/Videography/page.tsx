@@ -30,9 +30,8 @@ const page = () => {
               I Won my University's Largest Competition || UBC Storm the Wall
             </h3>
             <p className="text-center">
-              A 175m swim, a 500m sprint, a 3500 bike ride, 1500m run, and a 12
-              foot wall. That's the challenge of Storm the Wall. Without a doubt
-              one of my most memorable university experiences.
+              A 175m swim, a 500m sprint, a 3500m bike ride, 1500m run, and a 12
+              foot wall.
             </p>
           </div>
         </div>
