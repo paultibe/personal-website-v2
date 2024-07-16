@@ -20,10 +20,10 @@ export default function Home() {
           className="flex flex-col justify-center items-center absolute top-0 bottom-0 right-0 left-0 z-3"
           style={{ color: "var(--main-background)" }}
         >
-          <h1 className="text-3xl" style={{ textShadow: "1px 1px 10px #0af" }}>
+          <h1 className="text-3xl md:text-6xl xl:text-8xl" style={{ textShadow: "1px 1px 10px #0af" }}>
             Paul Tiberghien
           </h1>
-          <p className="mt-3 text-lg text-center mx-8">
+          <p className="mt-3 text-lg md:text-2xl xl:text-3xl text-center mx-8">
             I’m a developer, visual storyteller, and seeker of discomfort.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
             {/* md and lg breakpoint width adjustments*/}
             <div className="w-full px-4 mb-5 md:mb-16">
-              <h2 className="text-4xl font-semibold text-center items-center">
+              <h2 className="text-5xl font-semibold text-center items-center">
                 Hi and welcome!
               </h2>
             </div>
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           {/* Center content and add horizontal padding */}
           <h2
-            className="text-4xl font-bold mb-4"
+            className="text-5xl font-bold mb-4"
             // style={{ textShadow: "1px 1px 10px #0af" }}
           >
             {/* Large title with shadow */}
