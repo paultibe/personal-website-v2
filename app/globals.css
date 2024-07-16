@@ -1,4 +1,3 @@
-/* CSS variables for main background, main text, highlight colors, and main font */
 :root {
   --main-background: #fffff4;
   --main-text: #000000; /* black */
@@ -7,14 +6,14 @@
   --main-font: "Nunito", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --main-background: #000000;
     --main-text: #ffffff;
     --highlight-blue: #4fc3f7;
     --highlight-red: #ef9a9a;
   }
-}
+} */
 
 @tailwind base;
 @tailwind components;

@@ -56,7 +56,11 @@ export default function Home() {
                 <Image
                   src="/profile-cropped.png"
                   alt="Hiking on the Camino de Santiago"
-                  className="w-full rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg"
+                  width={429}
+                  height={520}
+                  layout="responsive"
+                  objectFit="contain"
                 />
               </div>
             </div>
@@ -82,7 +86,10 @@ export default function Home() {
             src="/marathon.jpeg"
             alt="Running a Marathon With No Training"
             className="mx-auto rounded-lg shadow-lg"
-            style={{ maxWidth: "80%", height: "auto" }}
+            width={1920}
+            height={1280}
+            layout="responsive"
+            objectFit="contain"
           />
         </div>
       </div>
