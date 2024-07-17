@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
             {/* md and lg breakpoint width adjustments*/}
             <div className="w-full px-4 mb-5 md:mb-16">
-              <h2 className="text-5xl font-semibold text-center items-center">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center items-center">
                 Hi and welcome!
               </h2>
             </div>
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           {/* Center content and add horizontal padding */}
           <h2
-            className="text-5xl font-bold mb-4"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
             // style={{ textShadow: "1px 1px 10px #0af" }}
           >
             {/* Large title with shadow */}
