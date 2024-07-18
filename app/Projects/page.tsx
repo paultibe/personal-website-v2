@@ -63,10 +63,10 @@ const projects = [
 const page = () => {
   return (
     <>
-      <div className="text-center text-3xl font-bold mt-24">
+      <div className="text-center text-3xl font-bold mt-32 sm:mt-24">
         A Few Projects!
       </div>
-      <div className="container mx-auto my-16 2xl:max-w-7xl lg:max-w-4xl">
+      <div className="container mx-auto mt-16 2xl:max-w-7xl lg:max-w-4xl">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-4">
           {projects.map((project) => (
             <ProjectCard
