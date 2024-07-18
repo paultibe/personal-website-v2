@@ -28,7 +28,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="relative pt-16">
+      <div className="relative mt-16">
         {/* container in tailwind used for setting max-width of elements dynamically based on nearest smallest breakpoint
         auto centers it. */}
         <div className="container mx-auto px-8">
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="my-6 md:my-16">
+      <div className="mt-6 md:mt-16">
         {/* Set a white background with vertical padding */}
         <div className="container mx-auto px-4 text-center">
           {/* Center content and add horizontal padding */}
