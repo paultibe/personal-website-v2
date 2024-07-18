@@ -22,7 +22,7 @@ const ExperienceToggle = ({
   return (
     <div className="my-4">
       <div
-        className="flex items-center justify-center cursor-pointer border border-gray-300"
+        className="flex items-center justify-between px-48 cursor-pointer border border-gray-300 rounded-md"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center">
@@ -35,6 +35,14 @@ const ExperienceToggle = ({
           />
           <span className="font-semibold">{title}</span>
         </div>
+        <Image
+          src="/chevron-icon.png"
+          alt="chevron icon"
+          width="48"
+          height="48"
+          className="h-3 w-3"
+        ></Image>
+
         {/* {isOpen ? (
           <ChevronUpIcon className="h-6 w-6" />
         ) : (

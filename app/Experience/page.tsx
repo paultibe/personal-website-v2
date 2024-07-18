@@ -2,6 +2,8 @@
 
 import ExperienceToggle from "../Components/ExperienceToggle";
 
+// TODO: create variable to store info about each experience. use map function to map to ExperienceToggle props
+
 const page = () => {
   return (
     <>
