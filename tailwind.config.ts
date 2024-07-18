@@ -21,6 +21,14 @@ const config: Config = {
       skew: {
         "-13": "-13deg",
       },
+      inset: {
+        "90": "22rem",
+        "-90": "-21.2rem",
+        "58": "14.5rem",
+      },
+      width: {
+        "100": "36rem",
+      },
     },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],

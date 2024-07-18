@@ -8,18 +8,9 @@ const NavBar = () => {
   const isHome = pathname === "/"; // Check if the current route is the homepage
 
   return (
-    <nav className="absolute top-0 left-0 w-full bg-transparent p-4 z-10">
-      <div className="container mx-auto flex justify-between items-center flex-wrap">
-        {/* Navbar links */}
-        <div className="flex items-center space-x-6 flex-wrap justify-center w-full md:w-auto ">
-          {/* <Link href="/">
-            <Image
-              src="/website-logo.png"
-              alt="website-logo"
-              width={1024}
-              height={1024}
-            ></Image>
-          </Link> */}
+    <nav className="absolute top-5 right-20 g-transparent p-4 z-10">
+      <div className="container flex justify-between items-center flex-wrap space-x-96">
+        <div className="flex items-center space-x-10 flex-wrap justify-center w-full md:w-auto ">
           <Link
             href="/"
             className={`${

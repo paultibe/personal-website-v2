@@ -1,8 +1,27 @@
+"use client";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import styles from "./home.module.css";
 
 export default function Home() {
+  const [showTitle, setShowTitle] = useState(false);
+  const [showSubtitle, setShowSubtitle] = useState(false);
+  const [showCircle, setShowCircle] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowTitle(true);
+      setTimeout(() => {
+        setShowCircle(true);
+        setTimeout(() => {
+          setShowSubtitle(true);
+        }, 325); // Delay after subtitle is shown
+      }, 325); // Delay for subtitle after title
+    }, 500); // Initial delay for title
+  }, []);
+
   return (
-    <main className="relative">
+    <main className="">
       {/* hero section. h-screen is full viewport height */}
       <div className="relative w-full h-screen overflow-hidden">
         <Image
@@ -10,31 +29,62 @@ export default function Home() {
           alt="Background Image"
           layout="fill"
           objectFit="cover"
-          objectPosition="60% center"
+          objectPosition="60% center" // this is the move the background image itself (so my face is centered)
         />
-        {/* overlay for background image. positioned relative to here section div, which is full viewport */}
+        {/* (dark) overlay for background image. positioned relative to here section div, which is full viewport */}
         <div className="absolute w-full h-full bg-black bg-opacity-50 z-2"></div>
-        {/* title + subtitle text
-        explicit positioning causes element to stretch across entire parent element*/}
+        {/* title + subtitle text */}
+
         <div
-          className="flex flex-col justify-center items-center absolute top-0 bottom-0 right-0 left-0 z-3"
+          className="flex flex-col justify-center absolute items-center space-y-8 top-0 bottom-0 right-0 left-0 z-3"
           style={{ color: "var(--main-background)" }}
         >
-          <h1 className="text-3xl md:text-6xl xl:text-8xl" style={{ textShadow: "1px 1px 10px #0af" }}>
+          <h1
+            className={`text-3xl md:text-6xl xl:text-8xl ${
+              showTitle ? styles.fadeIn : styles.hidden
+            }`}
+            // style={{ textShadow: "1px 1px 10px #0af" }}
+          >
             Paul Tiberghien
           </h1>
-          <p className="mt-3 text-lg md:text-2xl xl:text-3xl text-center mx-8">
-            I’m a developer, visual storyteller, and seeker of discomfort.
-          </p>
+          <div className="relative max-w-xs md:max-w-5xl mt-3 text-lg md:text-2xl xl:text-3xl text-center mx-8">
+            <p className={`${showSubtitle ? styles.fadeIn : styles.hidden}`}>
+              I’m a <span className="relative">developer</span>, visual
+              storyteller, and seeker of discomfort.
+            </p>
+            <Image
+              src="/crayon-circle-paul.png"
+              alt="crayon circle paul"
+              className={`absolute mx-auto -left-4 md:left-8 xl:-left-10 -top-60 md:-top-58 xl:-top-90 z-10 md:w-64 xl:w-96 h-72 md:h-64 w-100 xl:h-96 ${
+                showCircle ? styles.fadeIn : styles.hidden
+              }`}
+              width={1500}
+              height={1000}
+            />
+            {/* {showUnderline && (
+              <Image
+                src="/chalk-underline-1.png"
+                alt="Chalk Underline"
+                className={`absolute left-0 right-0 mx-auto ${
+                  showUnderline ? styles.revealAnimation : styles.hidden
+                }`}
+                style={{
+                  bottom: "-10px",
+                }}
+                width={200}
+                height={20}
+              />
+            )} */}
+          </div>
         </div>
       </div>
+      {/* welcome section */}
       <div className="relative mt-16">
         {/* container in tailwind used for setting max-width of elements dynamically based on nearest smallest breakpoint
         auto centers it. */}
         <div className="container mx-auto px-8">
           {/* flex container */}
           <div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
-            {/* md and lg breakpoint width adjustments*/}
             <div className="w-full px-4 mb-5 md:mb-16">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center items-center">
                 Hi and welcome!
@@ -70,15 +120,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* discomfort section */}
       <div className="mt-6 md:mt-16">
-        {/* Set a white background with vertical padding */}
         <div className="container mx-auto px-4 text-center">
-          {/* Center content and add horizontal padding */}
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
             // style={{ textShadow: "1px 1px 10px #0af" }}
           >
-            {/* Large title with shadow */}
             My Favourite Moment of Discomfort
           </h2>
           <p className="text-lg mb-6 lg:text-xl xl:text-2xl">

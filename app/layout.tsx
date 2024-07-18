@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +30,15 @@ export default function RootLayout({
         <title>Paul Tiberghien</title>
       </head>
       <body>
+        <Link href="/" className="absolute top-7 left-7 z-10 opacity-0 md:opacity-100">
+          <Image
+            src="/website-logo.png"
+            alt="website-logo"
+            className="w-12 h-12 rounded-lg"
+            width={48}
+            height={48}
+          ></Image>
+        </Link>
         <NavBar></NavBar>
         <main>{children}</main>
         <Footer></Footer>
