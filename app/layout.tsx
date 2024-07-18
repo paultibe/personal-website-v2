@@ -30,7 +30,7 @@ export default function RootLayout({
         <title>Paul Tiberghien</title>
       </head>
       <body>
-        <Link href="/" className="absolute top-7 left-7 z-10">
+        <Link href="/" className="absolute top-7 left-7 z-10 opacity-0 md:opacity-100">
           <Image
             src="/website-logo.png"
             alt="website-logo"

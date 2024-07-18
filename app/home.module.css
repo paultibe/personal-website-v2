@@ -1,0 +1,21 @@
+@keyframes reveal {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.revealAnimation {
+  animation: reveal 1s forwards;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.hidden {
+  opacity: 0;
+}
