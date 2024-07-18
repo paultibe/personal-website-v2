@@ -26,7 +26,13 @@ const ExperienceToggle = ({
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center">
-          <Image src={logo} alt="logo" className="h-10 w-10 mr-4" />
+          <Image
+            src={logo}
+            alt="logo"
+            width={251}
+            height={251}
+            className="h-10 w-10 mr-4"
+          />
           <span className="font-semibold">{title}</span>
         </div>
         {/* {isOpen ? (
@@ -41,6 +47,8 @@ const ExperienceToggle = ({
             <Image
               src="/google-maps-logo.png"
               alt="Google Maps"
+              width={512}
+              height={512}
               className="h-6 w-6 mr-2"
             />
             <div className="font-semibold">

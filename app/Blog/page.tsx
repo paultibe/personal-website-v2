@@ -1,33 +1,37 @@
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
 
-const projects = [
+const writings = [
   {
     id: 1,
-    image: "/marathon.jpeg",
+    image: "/personality.webp",
     title: "Why Every Student Should Take a Personality Course ",
     description: "coming soon:)",
     link: "",
     date: "",
+    imgWidth: 1962,
+    imgHeight: 1160,
   },
 ];
 
 const page = () => {
   return (
     <>
-      <div className="text-center text-3xl font-bold mt-14">
+      <div className="text-center text-3xl font-bold mt-32 sm:mt-24">
         A Few Writings ✍️
       </div>
-      <div className="container mx-auto px-4 scale-75">
-        <div className="grid grid-cols-3 gap-4">
-          {projects.map((project) => (
+      <div className="container mx-auto mt-16 2xl:max-w-7xl lg:max-w-4xl">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-4">
+          {writings.map((writing) => (
             <ProjectCard
-              key={project.id}
-              image={project.image}
-              title={project.title}
-              description={project.description}
-              link={project.link}
-              date={project.date}
+              key={writing.id}
+              image={writing.image}
+              title={writing.title}
+              description={writing.description}
+              link={writing.link}
+              date={writing.date}
+              imgWidth={writing.imgHeight}
+              imgHeight={writing.imgWidth}
             />
           ))}
         </div>

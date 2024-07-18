@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const NavBar = () => {
   const pathname = usePathname(); // Get the current pathname
@@ -8,9 +9,17 @@ const NavBar = () => {
 
   return (
     <nav className="absolute top-0 left-0 w-full bg-transparent p-4 z-10">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center flex-wrap">
         {/* Navbar links */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-6 flex-wrap justify-center w-full md:w-auto ">
+          {/* <Link href="/">
+            <Image
+              src="/website-logo.png"
+              alt="website-logo"
+              width={1024}
+              height={1024}
+            ></Image>
+          </Link> */}
           <Link
             href="/"
             className={`${

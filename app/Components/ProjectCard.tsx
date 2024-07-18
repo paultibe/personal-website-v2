@@ -9,6 +9,8 @@ interface ProjectCardProps {
   description: string;
   link: string;
   date: string;
+  imgWidth: number;
+  imgHeight: number;
 }
 
 const ProjectCard = ({
@@ -17,22 +19,32 @@ const ProjectCard = ({
   description,
   link,
   date,
+  imgHeight,
+  imgWidth,
 }: ProjectCardProps) => {
   return (
-    <Link
-      href={link}
-      passHref
-      className="block overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
-    >
-      <div className="relative h-64 w-full overflow-hidden">
-        <Image src={image} alt={title} className="w-full h-full object-cover" />
-      </div>
-      <div className="p-4 bg-white">
-        <p>📅 {date}</p>
-        <h5 className="font-bold text-xl">{title}</h5>
-        <p>{description}</p>
-      </div>
-    </Link>
+    <div className="container mx-auto md:max-w-lg max-w-xs">
+      <Link
+        href={link}
+        passHref
+        className="block overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+      >
+        <div className="relative 2xl:h-48 lg:h-32 md:h-64 h-32 w-full overflow-hidden">
+          <Image
+            src={image}
+            alt={title}
+            width={imgWidth}
+            height={imgHeight}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="p-4 bg-white">
+          <p className="2xl:text-sm lg:text-xs text-sm">📅 {date}</p>
+          <h5 className="font-bold 2xl:text-xl lg:text-lg md:text-xl">{title}</h5>
+          <p className="2xl:text-base lg:text-sm text-sm">{description}</p>
+        </div>
+      </Link>
+    </div>
   );
 };
 

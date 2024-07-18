@@ -20,10 +20,12 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="icon" href="/website-logo.ico" />
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
           rel="stylesheet"
         />
+        <title>Paul Tiberghien</title>
       </head>
       <body>
         <NavBar></NavBar>

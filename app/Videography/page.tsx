@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="text-center text-3xl font-bold mt-14 mb-10">
+      <div className="text-center text-3xl font-bold mt-32 sm:mt-24 mb-10 mx-2">
         I love{" "}
         <span className="bg-yellow-300 px-2.5 py-0.5 font-bold rounded-sm inline-block transform -rotate-1 -skew-x-12">
           visual storytelling.
@@ -12,21 +12,24 @@ const page = () => {
         <br></br>
         Here are some of my favourite stories so far.
       </div>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-16">
         <div className="flex flex-wrap items-center justify-between mb-10">
           <div className="w-full md:w-1/2">
-            <iframe
-              width="100%"
-              height="425"
-              src="https://www.youtube.com/embed/rbXImoZrrFQ?si=0rVsPg-AVpC1RYXE"
-              title="I Won my University's Largest Competition || UBC Storm the Wall"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height={425}
+                src="https://www.youtube.com/embed/rbXImoZrrFQ?si=0rVsPg-AVpC1RYXE"
+                title="I Won my University's Largest Competition || UBC Storm the Wall"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-xl text-center font-bold mb-2">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
               I Won my University's Largest Competition || UBC Storm the Wall
             </h3>
             <p className="text-center">
@@ -38,18 +41,21 @@ const page = () => {
 
         <div className="flex flex-wrap items-center justify-between mb-10 flex-row-reverse">
           <div className="w-full md:w-1/2">
-            <iframe
-              width="100%"
-              height="425"
-              src="https://www.youtube.com/embed/givioZzfNDA?si=X4TV_DXUVq7v0Ano"
-              title="My First Month of Senior Year"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height="425"
+                src="https://www.youtube.com/embed/givioZzfNDA?si=X4TV_DXUVq7v0Ano"
+                title="My First Month of Senior Year"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-xl text-center font-bold mb-2">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
               My First Month of Senior Year
             </h3>
             <p className="text-center">
@@ -60,18 +66,21 @@ const page = () => {
 
         <div className="flex flex-wrap items-center justify-between mb-10">
           <div className="w-full md:w-1/2">
-            <iframe
-              width="100%"
-              height="425"
-              src="https://www.youtube.com/embed/qpTPqxPe6W8?si=zRMVK5lGL0coF_r0"
-              title="Claire & Tyler || Aug 2, 2023"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height="425"
+                src="https://www.youtube.com/embed/qpTPqxPe6W8?si=zRMVK5lGL0coF_r0"
+                title="Claire & Tyler || Aug 2, 2023"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-xl text-center font-bold mb-2">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
               Claire & Tyler || Aug 2, 2023
             </h3>
             <p className="text-center">
@@ -80,20 +89,23 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between mb-10 flex-row-reverse">
+        <div className="flex flex-wrap items-center justify-between flex-row-reverse">
           <div className="w-full md:w-1/2">
-            <iframe
-              width="100%"
-              height="425"
-              src="https://www.youtube.com/embed/FTDZ1fYeNik?si=AIEvJQ-rlU9LRAeg"
-              title="In Pursuit of Fulfillment"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height="425"
+                src="https://www.youtube.com/embed/FTDZ1fYeNik?si=AIEvJQ-rlU9LRAeg"
+                title="In Pursuit of Fulfillment"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-xl text-center font-bold mb-2">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
               In Pursuit of Fulfillment
             </h3>
             <p className="text-center">
