@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
 
+// something
+
 const interests = [
   {
     id: 1,
