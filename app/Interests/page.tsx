@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../Components/InterestCard";
+import ProjectCard from "../Components/InterestCard"; // issue fix
 
 // something else
 
