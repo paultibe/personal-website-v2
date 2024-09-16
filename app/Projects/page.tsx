@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: 2,
-    image: "/projects-event-horizon.png",
+    image: "/projects-event-horizon2.png",
     title: "Event Horizon (nwHacks 2024)",
     description: "All university events, in one place.",
     link: "https://github.com/paultibe/ubc-event-horizon",
