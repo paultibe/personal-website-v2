@@ -14,7 +14,7 @@ const page = () => {
             logo="/copperleaf-logo.png"
             title={
               <>
-                <span>Incoming Software Engineer Intern @ </span>
+                <span>Software Engineer Intern @ </span>
                 <span className="bg-yellow-300 px-2.5 py-0.5 font-bold rounded-sm inline-block transform -rotate-1 -skew-x-12">
                   Copperleaf
                 </span>

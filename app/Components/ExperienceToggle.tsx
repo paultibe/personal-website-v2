@@ -22,7 +22,7 @@ const ExperienceToggle = ({
   return (
     <div className="my-4">
       <div
-        className="flex items-center justify-between px-4 md:px-48 cursor-pointer border border-gray-300 rounded-md"
+        className="flex items-center justify-between px-4 md:px-48 cursor-pointer rounded-lg shadow-md shadow-gray-300/50 hover:shadow-lg transition-shadow duration-200 ease-in-out"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center">

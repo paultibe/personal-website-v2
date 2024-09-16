@@ -1,12 +1,12 @@
 import React from "react";
-import ProjectCard from "../Components/ProjectCard";
+import ProjectCard from "../Components/InterestCard";
 
 // something else
 
 const interests = [
   {
     id: 1,
-    image: "/marathon.jpeg",
+    image: "/interests-juggling.jpg",
     title: "Juggling",
     description: "Throwing things around in the air.",
     link: "",
@@ -16,7 +16,7 @@ const interests = [
   },
   {
     id: 2,
-    image: "/marathon.jpeg",
+    image: "/interests-traveling.JPEG",
     title: "Traveling",
     description: "Exploring the world!",
     link: "",
@@ -26,7 +26,7 @@ const interests = [
   },
   {
     id: 3,
-    image: "/marathon.jpeg",
+    image: "/interests-running.jpeg",
     title: "Running",
     description: "Callousing my feet and my mind...",
     link: "",
@@ -34,21 +34,21 @@ const interests = [
     imgWidth: 1920,
     imgHeight: 1280,
   },
-  {
-    id: 4,
-    image: "/marathon.jpeg",
-    title: "Guitar",
-    description: "Making a few sounds.",
-    link: "",
-    date: "",
-    imgWidth: 1920,
-    imgHeight: 1280,
-  },
+  // {
+  //   id: 4,
+  //   image: "/marathon.jpeg",
+  //   title: "Guitar",
+  //   description: "Making a few sounds.",
+  //   link: "",
+  //   date: "",
+  //   imgWidth: 1920,
+  //   imgHeight: 1280,
+  // },
   {
     id: 5,
-    image: "/marathon.jpeg",
+    image: "/interests-backpacking.jpg",
     title: "Backpacking",
-    description: "Mountains are awesome.",
+    description: "One step at a time...",
     link: "",
     date: "",
     imgWidth: 1920,
@@ -56,7 +56,7 @@ const interests = [
   },
   {
     id: 6,
-    image: "/marathon.jpeg",
+    image: "/interests-choir.jpg",
     title: "Choir",
     description: "Finding harmony with others.",
     link: "",
@@ -66,7 +66,7 @@ const interests = [
   },
   {
     id: 7,
-    image: "/marathon.jpeg",
+    image: "/interests-reading.webp",
     title: "Reading",
     description: "Following my curiosities.",
     link: "",
@@ -76,7 +76,7 @@ const interests = [
   },
   {
     id: 8,
-    image: "/marathon.jpeg",
+    image: "/interests-misc.JPEG",
     title: "Miscellaneous",
     description: "A collection of random things I've dabbled in.",
     link: "",
