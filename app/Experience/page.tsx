@@ -1,13 +1,37 @@
 "use client";
+import Image from "next/image";
 
 import ExperienceToggle from "../Components/ExperienceToggle";
+import styles from "./home.module.css";
+import { useEffect, useState } from "react";
 
 // TODO: create variable to store info about each experience. use map function to map to ExperienceToggle props
 
 const page = () => {
+  // const [showCircle, setShowCircle] = useState(false);
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowCircle(true);
+  //   }, 500); // Initial delay for title
+  // }, []);
+
+  // ${
+  //   showCircle ? styles.fadeIn : styles.hidden
+  // }`
+
   return (
     <>
-      <div className="mt-32 sm:mt-24 text-center text-3xl font-bold">Experience</div>
+      <div className="mt-32 sm:mt-24 text-center text-3xl font-bold">
+        Experience
+      </div>
+      {/* <Image
+        src="/crayon-circle-four-arrows.png"
+        alt="crayon circle experience"
+        className={`absolute left-1/2 transform -translate-x-1/2`}
+        width={1500}
+        height={1000}
+      /> */}
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto mt-16 p-4 border border-black rounded-lg shadow">
           <ExperienceToggle
