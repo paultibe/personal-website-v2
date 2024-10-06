@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import React from 'react';
 
 import ExperienceToggle from "../Components/ExperienceToggle";
 import styles from "./home.module.css";
