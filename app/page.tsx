@@ -107,7 +107,7 @@ export default function Home() {
             <div className="w-80 sm:w-96 md:w-1/2 lg:w-5/12 px-4 order-3 md:order-2 py-5">
               <p className="mb-5 lg:text-xl xl:text-2xl">
                 I’m a fourth year student at UBC studying Computer Science and
-                Behavioural Neuroscience passionate about AI, robotics, and the
+                Behavioural Neuroscience passionate about web dev, AI, robotics, and the
                 brain.
               </p>
               <p className="mb-5 lg:text-xl xl:text-2xl">

@@ -26,13 +26,6 @@ const page = () => {
       <div className="mt-32 sm:mt-24 text-center text-3xl font-bold">
         Experience
       </div>
-      {/* <Image
-        src="/crayon-circle-four-arrows.png"
-        alt="crayon circle experience"
-        className={`absolute left-1/2 transform -translate-x-1/2`}
-        width={1500}
-        height={1000}
-      /> */}
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto mt-16 p-4 border border-black rounded-lg shadow">
           <ExperienceToggle
@@ -48,7 +41,14 @@ const page = () => {
             location="Vancouver, British Columbia"
             date="Sept 2024 - Apr 2025"
           >
-            ☻ Value Frameworks team!
+            ☻ Implemented a Repository and Data Transfer Object pattern and
+            wrote custom exception handling in C#/.NET to handle 100+ years of
+            time-varying client inputs to quantify the monetary value of surplus
+            capacity in an electricity grid <br></br> ☻ Achieved 100% code
+            coverage by writing XML-based and NUnit unit tests to validate new
+            implementation logic <br></br> ☻ Created PL/SQL scripts to remove
+            obsolete data in client databases and debugged Jenkins pipelines as
+            part of CI/CD
           </ExperienceToggle>
           <ExperienceToggle
             logo="/ubc-logo.png"
@@ -87,11 +87,11 @@ const page = () => {
             location="Vancouver, British Columbia"
             date="March 2024 - Present"
           >
-            ☻ Working within the software subteam to create a general purpose
-            home robot for the 2026 Robocup@Home competition
-            <br></br>☻ Utilizing Linux, ROS, and Python to develop an
-            interrupt-based NLP service for real-time verbal command recognition
-            and conversion into ROS messages to be sent to active processes
+            ☻ Implemented a finite state machine in Python to mitigate LLM
+            hallucination on tasks for the Robocup@Home 2026 competition by
+            generating subtasks using the OpenAI API and transitioning subtasks
+            based on environment observations
+            <br></br>
           </ExperienceToggle>
           <ExperienceToggle
             logo="/ubc-logo.png"
