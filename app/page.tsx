@@ -49,7 +49,7 @@ export default function Home() {
           </h1>
           <div className="relative max-w-xs md:max-w-5xl mt-3 text-lg md:text-2xl xl:text-3xl text-center mx-8">
             <p className={`${showSubtitle ? styles.fadeIn : styles.hidden}`}>
-              I’m a <span className="relative">software engineer</span>, visual
+              I’m a <span className="relative">developer</span>, visual
               storyteller, and seeker of discomfort.
             </p>
             <Image
