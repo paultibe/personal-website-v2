@@ -1,10 +1,26 @@
 "use client";
+import Image from "next/image";
+import React from 'react';
 
 import ExperienceToggle from "../Components/ExperienceToggle";
+import styles from "./home.module.css";
+import { useEffect, useState } from "react";
 
 // TODO: create variable to store info about each experience. use map function to map to ExperienceToggle props
 
 const page = () => {
+  // const [showCircle, setShowCircle] = useState(false);
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowCircle(true);
+  //   }, 500); // Initial delay for title
+  // }, []);
+
+  // ${
+  //   showCircle ? styles.fadeIn : styles.hidden
+  // }`
+
   return (
     <>
       <div className="mt-32 sm:mt-24 text-center text-3xl font-bold">
@@ -16,7 +32,7 @@ const page = () => {
             logo="/copperleaf-logo.png"
             title={
               <>
-                <span>Incoming Software Engineer Intern @ </span>
+                <span>Software Engineer Intern @ </span>
                 <span className="bg-yellow-300 px-2.5 py-0.5 font-bold rounded-sm inline-block transform -rotate-1 -skew-x-12">
                   Copperleaf
                 </span>

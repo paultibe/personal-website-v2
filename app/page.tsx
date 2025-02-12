@@ -94,7 +94,7 @@ export default function Home() {
               {/* image column */}
               <div className="max-w-80 sm:max-w-96 mx-auto">
                 <Image
-                  src="/profile-cropped.png"
+                  src="/profile-cropped2.png"
                   alt="Hiking on the Camino de Santiago"
                   className="rounded-lg shadow-lg"
                   width={429}
