@@ -3,6 +3,26 @@ import ProjectCard from "../Components/ProjectCard";
 
 const projects = [
   {
+    id: 6,
+    image: "/projects-roammates.png",
+    title: "roammates 🥇 (Hack Western 2024)",
+    description: "The easiest way to plan your travels.",
+    link: "https://dorahacks.io/navi?to=/buidl/20357",
+    date: "Nov 2024",
+    imgWidth: 7680,
+    imgHeight: 4320,
+  },
+  {
+    id: 5,
+    image: "/projects-cruz.jpg",
+    title: "cruz 🥇🥇🥈 (Stormhacks 2024)",
+    description: "Uber for campuses meets Tinder for friends.",
+    link: "https://devpost.com/software/cruz-67ziu2",
+    date: "Oct 2024",
+    imgWidth: 806,
+    imgHeight: 537,
+  },
+  {
     id: 1,
     image: "/projects-computers-galore.png",
     title: "Computers Galore (CPSC 304)",
@@ -17,7 +37,7 @@ const projects = [
     image: "/projects-event-horizon2.png",
     title: "Event Horizon (nwHacks 2024)",
     description: "All university events, in one place.",
-    link: "https://github.com/paultibe/ubc-event-horizon",
+    link: "https://devpost.com/software/ubc-event-horizon",
     date: "Jan 2024",
     imgWidth: 751,
     imgHeight: 466,
@@ -25,7 +45,7 @@ const projects = [
   {
     id: 3,
     image: "/projects-ootd-group.jpeg",
-    title: "🥇 OOTD (HackCamp 2023)",
+    title: "OOTD (HackCamp 2023) 🥇",
     description: "An AI-powered digital closet.",
     link: "https://github.com/harrisonmacey/ootd-project",
     date: "Nov 2023",
@@ -36,28 +56,12 @@ const projects = [
     id: 4,
     image: "/projects-travellog.png",
     title: "Travellog (CPSC 210)",
-    description: "Save Where You've Been, Made Easy",
+    description: "Save Where You've Been, Made Easy.",
     link: "https://github.com/paultibe/Travellog",
     date: "Dec 2022",
     imgWidth: 1577,
     imgHeight: 887,
   },
-  // {
-  //   id: 5,
-  //   image: "/path-to-image-1.jpg",
-  //   title: "Project Title 1",
-  //   description: "Description of Project 1...",
-  //   link: "/project-1",
-  //   date: "something",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/path-to-image-1.jpg",
-  //   title: "Project Title 1",
-  //   description: "Description of Project 1...",
-  //   link: "/project-1",
-  //   date: "something",
-  // },
 ];
 
 const page = () => {

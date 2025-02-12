@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from 'react';
+import React from "react";
 
 import ExperienceToggle from "../Components/ExperienceToggle";
 import styles from "./home.module.css";
@@ -41,14 +41,12 @@ const page = () => {
             location="Vancouver, British Columbia"
             date="Sept 2024 - Apr 2025"
           >
-            ☻ Implemented a Repository and Data Transfer Object pattern and
-            wrote custom exception handling in C#/.NET to handle 100+ years of
-            time-varying client inputs to quantify the monetary value of surplus
-            capacity in an electricity grid <br></br> ☻ Achieved 100% code
-            coverage by writing XML-based and NUnit unit tests to validate new
-            implementation logic <br></br> ☻ Created PL/SQL scripts to remove
-            obsolete data in client databases and debugged Jenkins pipelines as
-            part of CI/CD
+            ☻ Developed a custom statistical model used across 118k power
+            delivery assets to quantify surplus capacity benefits using 100+
+            years of historical and projected client data by implementing a
+            Repository pattern in C#/.NET <br></br> ☻ Automating NUnit test
+            generation across 281 client repositories using Python and
+            parameterized templates
           </ExperienceToggle>
           <ExperienceToggle
             logo="/ubc-logo.png"
@@ -63,16 +61,18 @@ const page = () => {
             location="Vancouver, British Columbia"
             date="May 2023 - Dec 2023"
           >
-            ☻ Developed a full-stack ECG examination application for
-            undergraduate medical students by designing and implementing a
-            robust database schema using SQL and Oracle Apex, programming an
-            interactive confusion matrix to offer real-time insights into
-            student performance via D3.js, and customizing the user interface
-            using HTML & CSS <br></br> ☻ Created two 100% dynamic Microsoft
-            PowerBI dashboards by meticulously cleaning 300,000+ rows of JSON
-            data using Rstudio and writing custom DAX expressions <br></br> ☻
-            Implemented custom xAPI statements into online learning modules to
-            optimize data collection of learning experiences
+            ☻ Developed a full-stack ECG examination application used by over
+            90% of each UBC medical class <br></br> ☻ Architected and
+            implemented a scalable database schema storing 80k+ ECGs using SQL
+            and Oracle DB
+            <br></br> ☻ Implemented a 34x34 interactive confusion matrix using
+            D3.js to reveal key misconceptions in ECG diagnoses <br></br> ☻
+            Integrated granular student engagement tracking by writing custom
+            xAPI statements across 750+ online module slides <br></br> ☻ Created
+            two 100% dynamic Microsoft PowerBI dashboards to visualize learning
+            experiences across modules by writing a Python script to parse 300k+
+            rows of JSON data and writing custom DAX expressions to enable
+            cross-filtering
           </ExperienceToggle>
           <ExperienceToggle
             logo="/robotics-logo.png"
@@ -91,7 +91,8 @@ const page = () => {
             hallucination on tasks for the Robocup@Home 2026 competition by
             generating subtasks using the OpenAI API and transitioning subtasks
             based on environment observations
-            <br></br>
+            <br></br> ☻ Leading the design and development of the new team
+            website using Next.js, TailwindCSS, and Figma
           </ExperienceToggle>
           <ExperienceToggle
             logo="/ubc-logo.png"
@@ -107,13 +108,9 @@ const page = () => {
             date="Oct 2022 - Apr 2023"
           >
             ☻ Cleaned, analyzed, and visualized data trends in 5+ years of
-            security data by using pivot tables and diverse visualizations to
-            quantify the impact of crime prevention programs <br></br>☻
-            Professionally communicated data trends to key stakeholders, such as
-            ICBC, RCMP, and UBC Health & Wellness <br></br>☻ Led the
-            redevelopment of Campus Security’s outreach program using a
-            data-driven approach to guide strategic reorientation towards more
-            effective crime prevention and community engagement
+            security data to quantify the impact of crime prevention programs
+            and redevelop Campus Security’s outreach program using a data-driven
+            approach
           </ExperienceToggle>
         </div>
       </div>
