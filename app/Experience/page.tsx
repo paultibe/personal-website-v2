@@ -29,6 +29,21 @@ const page = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto mt-16 p-4 border border-black rounded-lg shadow">
           <ExperienceToggle
+            logo="/aws-logo.png"
+            title={
+              <>
+                <span>Incoming Software Engineer Intern @ </span>
+                <span className="bg-yellow-300 px-2.5 py-0.5 font-bold rounded-sm inline-block transform -rotate-1 -skew-x-12">
+                  AWS
+                </span>
+              </>
+            }
+            location="Toronto, Ontario"
+            date="May 2025 - Aug 2025"
+          >
+            ☻ RDS team!
+          </ExperienceToggle>
+          <ExperienceToggle
             logo="/copperleaf-logo.png"
             title={
               <>
