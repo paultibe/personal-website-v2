@@ -106,11 +106,14 @@ export default function Home() {
             </div>
             <div className="w-80 sm:w-96 md:w-1/2 lg:w-5/12 px-4 order-3 md:order-2 py-5">
               <p className="mb-5 lg:text-xl xl:text-2xl">
-                I’m a fifth year Computer Science and Neuroscience student at
-                UBC who leverages understanding how things work under the hood
-                to solve complex problems. Some of my interests include backend
-                development, software design, computer networking, robotics, and
-                AI!
+                Life is a series of experiments. <br></br>
+                Experiments are the best teachers. <br></br>
+                I'm not sure where exactly I'm headed, but I'm continuously
+                experimenting. <br></br> <br></br>
+                In my five years at UBC studying Computer Science and
+                Neuroscience, I've explored deeply and widely. Some of my
+                interests include backend development, software architecture,
+                computer networking, robotics, AI, and all things psychology.
               </p>
               <p className="mb-5 lg:text-xl xl:text-2xl">
                 In my free time, you can find me embarking on long backpacking
