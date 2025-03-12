@@ -10,6 +10,7 @@ npm run dev
 2. Open [http://localhost:3000](http://localhost:3000) in browser.
 
 ### TODO
-1. Touch up overall design for cleaner look.
-2. Add a few more CSS things.
-3. Add JS and/or aceternity UI elements.
+1. Revamp entire design for a scrapbook look.
+2. Finish pages for Interests section.
+3. Actually publish my writings in Blog seciton.
+4. Add JS and/or aceternity UI elements for cool vibes.
