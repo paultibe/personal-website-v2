@@ -4,8 +4,8 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 const NavBar = () => {
-  const pathname = usePathname(); // Get the current pathname
-  const isHome = pathname === "/"; // Check if the current route is the homepage
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   return (
     <nav className="absolute top-5 right-20 g-transparent p-4 z-10">
@@ -19,8 +19,20 @@ const NavBar = () => {
                 : "text-gray-800 hover:text-gray-600"
             }`}
           >
-            About
+            Home
           </Link>
+          <a
+            href="https://garden.paultiberghien.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${
+              isHome
+                ? "text-white hover:text-gray-400"
+                : "text-gray-800 hover:text-gray-600"
+            }`}
+          >
+            Garden
+          </a>
           <Link
             href="/Experience"
             className={`${

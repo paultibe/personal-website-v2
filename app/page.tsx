@@ -15,9 +15,9 @@ export default function Home() {
         setShowCircle(true);
         setTimeout(() => {
           setShowSubtitle(true);
-        }, 325); // Delay after subtitle is shown
-      }, 325); // Delay for subtitle after title
-    }, 500); // Initial delay for title
+        }, 325); 
+      }, 325); 
+    }, 500); 
   }, []);
 
   return (
