@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import styles from "./home.module.css";
 
@@ -15,9 +16,9 @@ export default function Home() {
         setShowCircle(true);
         setTimeout(() => {
           setShowSubtitle(true);
-        }, 325); 
-      }, 325); 
-    }, 500); 
+        }, 325);
+      }, 325);
+    }, 500);
   }, []);
 
   return (
@@ -106,14 +107,49 @@ export default function Home() {
             </div>
             <div className="w-80 sm:w-96 md:w-1/2 lg:w-5/12 px-4 order-3 md:order-2 py-5">
               <p className="mb-5 lg:text-xl xl:text-2xl">
-                Life is a series of experiments. <br></br>
-                Experiments are the best teachers. <br></br>
+                Life is a series of experiments.
+                <br></br>
+                <br></br>
+                Experiments are the best teachers.
+                <br></br>
+                <br></br>
                 I'm not sure where exactly I'm headed, but I'm continuously
-                experimenting. <br></br> <br></br>
-                In my five years at UBC studying Computer Science and
-                Neuroscience, I've explored deeply and widely. Some of my
-                interests include backend development, software architecture,
-                computer networking, robotics, AI, and all things psychology.
+                experimenting.
+                <br></br> <br></br>
+                As the only Computer Science and Behavioural Neuroscience
+                student at UBC, I've had the unique privilege of peeking under
+                two beautiful, complex, enormously relevant, and
+                rapidly-changing fields. I'm particularly interested in
+                distributed systems, cloud computing, learning, personal
+                knowledge management, and the intersection of AI, psychology,
+                and neuroscience.
+                <br></br> <br></br>
+                For some of my work, check out my{" "}
+                <Link
+                  href="/Experience"
+                  className="text-blue-400 hover:text-blue-300 underline"
+                >
+                  experience
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="/Projects"
+                  className="text-blue-400 hover:text-blue-300 underline"
+                >
+                  projects
+                </Link>
+                .<br></br> <br></br>
+                To get to know me better, including my core beliefs, values, and
+                systems, checkout my{" "}
+                <a
+                  href="https://garden.paultiberghien.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 underline"
+                >
+                  digital garden
+                </a>
+                .
               </p>
               <p className="mb-5 lg:text-xl xl:text-2xl">
                 In my free time, you can find me embarking on long backpacking

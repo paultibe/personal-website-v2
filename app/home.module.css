@@ -12,10 +12,59 @@
 }
 
 .fadeIn {
-  opacity: 1;
-  transition: opacity 1s;
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
 }
 
 .hidden {
   opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.heroTitle {
+  position: relative;
+  color: white;
+  text-shadow: 0.3em 0.3em 0 rgba(0, 0, 0, 0.3),
+    -0.3em -0.3em 0 rgba(0, 0, 0, 0.3), 0.3em -0.3em 0 rgba(0, 0, 0, 0.3),
+    -0.3em 0.3em 0 rgba(0, 0, 0, 0.3), -1px -1px 0 rgba(0, 0, 0, 0.3),
+    2px 2px 0 rgba(0, 0, 0, 0.3), -1px 2px 0 rgba(0, 0, 0, 0.3),
+    2px -1px 0 rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.heroTitle::before {
+  content: "Paul Tiberghien";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(5px);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.heroBackground {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 0.15),
+    white,
+    rgba(0, 0, 0, 0.15),
+    transparent
+  );
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
 }

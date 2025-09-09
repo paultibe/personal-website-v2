@@ -56,7 +56,7 @@ const page = () => {
           </div>
           <div className="w-full md:w-1/2 px-4">
             <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
-              My First Month of Senior Year
+              i'm scared for university to end
             </h3>
             <p className="text-center">
               An honest visual diary on my first month of senior year.
@@ -106,7 +106,7 @@ const page = () => {
           </div>
           <div className="w-full md:w-1/2 px-4">
             <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
-              In Pursuit of Fulfillment
+              Why I Shaved my Head
             </h3>
             <p className="text-center">
               A story about going against the grain to find fulfillment.
