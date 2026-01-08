@@ -3,6 +3,16 @@ import ProjectCard from "../Components/ProjectCard";
 
 const projects = [
   {
+    id: 7,
+    image: "/projects-fragments.png",
+    title: "Fragments 🥇 (Hack the North 2025)",
+    description: "Clip any moment, anywhere.",
+    link: "https://devpost.com/software/fragments-gmleoj",
+    date: "Sept 2025",
+    imgWidth: 2044,
+    imgHeight: 1484,
+  },
+  {
     id: 6,
     image: "/projects-roammates.png",
     title: "roammates 🥇 (Hack Western 2024)",
