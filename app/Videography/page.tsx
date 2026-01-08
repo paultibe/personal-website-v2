@@ -19,6 +19,57 @@ const page = () => {
               <iframe
                 width="100%"
                 height={425}
+                src="https://www.youtube.com/embed/UOlusggGv2o?si=0rVsPg-AVpC1RYXE"
+                title="Why I Love Running"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-4">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
+              Why I Love Running
+            </h3>
+            <p className="text-center">
+              Reflections on my journey with running as a vehicle for
+              discomfort.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between mb-10 flex-row-reverse">
+          <div className="w-full md:w-1/2">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height="425"
+                src="https://www.youtube.com/embed/FTDZ1fYeNik?si=AIEvJQ-rlU9LRAeg"
+                title="In Pursuit of Fulfillment"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-4">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
+              Why I Shaved my Head
+            </h3>
+            <p className="text-center">
+              A story about going against the grain to find fulfillment.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between mb-10">
+          <div className="w-full md:w-1/2">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height={425}
                 src="https://www.youtube.com/embed/rbXImoZrrFQ?si=0rVsPg-AVpC1RYXE"
                 title="I Won my University's Largest Competition || UBC Storm the Wall"
                 frameBorder="0"
@@ -56,7 +107,7 @@ const page = () => {
           </div>
           <div className="w-full md:w-1/2 px-4">
             <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
-              i'm scared for university to end
+              i'm scared of university ending
             </h3>
             <p className="text-center">
               An honest visual diary on my first month of senior year.
@@ -85,31 +136,6 @@ const page = () => {
             </h3>
             <p className="text-center">
               Two of my favourite people got married!
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-wrap items-center justify-between flex-row-reverse">
-          <div className="w-full md:w-1/2">
-            <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                width="100%"
-                height="425"
-                src="https://www.youtube.com/embed/FTDZ1fYeNik?si=AIEvJQ-rlU9LRAeg"
-                title="In Pursuit of Fulfillment"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-md"
-              ></iframe>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
-              Why I Shaved my Head
-            </h3>
-            <p className="text-center">
-              A story about going against the grain to find fulfillment.
             </p>
           </div>
         </div>
