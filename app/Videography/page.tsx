@@ -19,6 +19,96 @@ const page = () => {
               <iframe
                 width="100%"
                 height={425}
+                src="https://www.youtube.com/embed/rbXImoZrrFQ?si=0rVsPg-AVpC1RYXE"
+                title="I Won my University's Largest Competition || UBC Storm the Wall"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-4">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
+              I Won my University's Largest Competition || UBC Storm the Wall
+            </h3>
+            <p className="text-center">
+              A 175m swim, a 500m sprint, a 3500m bike ride, 1500m run, and a 12
+              foot wall.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between mb-10 flex-row-reverse">
+          <div className="w-full md:w-1/2">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height="425"
+                src="https://www.youtube.com/embed/TtYBTPVJCwo?si=0rVsPg-AVpC1RYXE"
+                title="10 Years of Hacking || nwHacks 2025"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-md"
+              ></iframe>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-4">
+            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
+              10 Years of Hacking || nwHacks 2025
+            </h3>
+            <p className="text-center">
+              And many more to come! Had lots of fun on the gimbal in this one.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-12 mb-10">
+          <div className="w-full sm:w-1/3 max-w-sm">
+            <iframe
+              width="100%"
+              height="600"
+              src="https://www.instagram.com/reel/DRyRaELEQoM/embed/"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-md"
+            ></iframe>
+            <p className="text-center mt-2">took 656 lightbulb photos for the opening sequence</p>
+          </div>
+          <div className="w-full sm:w-1/3 max-w-sm">
+            <iframe
+              width="100%"
+              height="600"
+              src="https://www.instagram.com/reel/DArwQf1yQDq/embed/"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-md"
+            ></iframe>
+            <p className="text-center mt-2">lots of apples were sacrificed</p>
+          </div>
+          <div className="w-full sm:w-1/3 max-w-sm">
+            <iframe
+              width="100%"
+              height="600"
+              src="https://www.instagram.com/reel/C_wgH5CSkIl/embed/"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-md"
+            ></iframe>
+            <p className="text-center mt-2">film your friends</p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between mb-10">
+          <div className="w-full md:w-1/2">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                width="100%"
+                height={425}
                 src="https://www.youtube.com/embed/UOlusggGv2o?si=0rVsPg-AVpC1RYXE"
                 title="Why I Love Running"
                 frameBorder="0"
@@ -69,32 +159,6 @@ const page = () => {
             <div className="aspect-w-16 aspect-h-9">
               <iframe
                 width="100%"
-                height={425}
-                src="https://www.youtube.com/embed/rbXImoZrrFQ?si=0rVsPg-AVpC1RYXE"
-                title="I Won my University's Largest Competition || UBC Storm the Wall"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-md"
-              ></iframe>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 px-4">
-            <h3 className="text-xl text-center font-bold mt-4 md:mt-0 mb-2">
-              I Won my University's Largest Competition || UBC Storm the Wall
-            </h3>
-            <p className="text-center">
-              A 175m swim, a 500m sprint, a 3500m bike ride, 1500m run, and a 12
-              foot wall.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-wrap items-center justify-between mb-10 flex-row-reverse">
-          <div className="w-full md:w-1/2">
-            <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                width="100%"
                 height="425"
                 src="https://www.youtube.com/embed/givioZzfNDA?si=X4TV_DXUVq7v0Ano"
                 title="My First Month of Senior Year"
@@ -115,7 +179,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between mb-10">
+        <div className="flex flex-wrap items-center justify-between mb-10 flex-row-reverse">
           <div className="w-full md:w-1/2">
             <div className="aspect-w-16 aspect-h-9">
               <iframe
