@@ -3,6 +3,17 @@ import ProjectCard from "../Components/ProjectCard";
 
 const projects = [
   {
+    id: 8,
+    image: "/projects-bloom.png",
+    title: "Bloom 🥇 (TreeHacks 2026)",
+    description:
+      "Enabling seniors to be more independent and connected to their families.",
+    link: "https://devpost.com/software/bloom-dvjpea",
+    date: "Feb 2026",
+    imgWidth: 3058,
+    imgHeight: 1668,
+  },
+  {
     id: 7,
     image: "/projects-fragments.png",
     title: "Fragments 🥇 (Hack the North 2025)",
